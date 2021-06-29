@@ -1,0 +1,37 @@
+.current-service {
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 50px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4ec0b4;
+  }
+
+  &__content {
+    width: 80%;
+    height: 200px;
+    margin: 50px auto;
+    background-image: url(../../images/service_bkg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  &__back {
+    font-size: 19px;
+    font-weight: 700;
+  }
+
+  &__back-link {
+    cursor: pointer;
+    color: #212529;
+
+    &:hover {
+      color: #4ec0b4;
+    }
+  }
+}

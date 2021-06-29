@@ -1,0 +1,57 @@
+.message {
+  display: block;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  font-size: 24px;
+  color: #212529;
+
+  &__text {
+    padding-bottom: 50px;
+  }
+
+  &__container {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 30px;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+
+  &__button {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 5px 0;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #4ec0b4;
+    cursor: pointer;
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #fff;
+
+    &:hover {
+      background-color: #fff;
+      border: 1px solid #4ec0b4;
+      color: #4ec0b4;
+    }
+
+    &:active {
+      background-color: #4ec0b4;
+      color: yellow;
+    }
+  }
+
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+}

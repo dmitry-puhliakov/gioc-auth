@@ -1,0 +1,119 @@
+.login {
+  display: block;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  font-size: 24px;
+  color: #212529;
+
+  &__container {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 0;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #4ec0b4;
+    color: #fff;
+  }
+
+  &__title {
+    font-size: 24px;
+  }
+
+  &__close {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  &__body {
+    padding: 20px;
+  }
+
+  &__label {
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  &__input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #4ec0b4;
+    outline: none;
+    font-size: 19px;
+    letter-spacing: 1px;
+  }
+
+  &__errorMsg {
+    color: red;
+    font-size: 16px;
+  }
+
+  &__footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  &__button {
+    width: 80%;
+    padding: 15px 0;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #4ec0b4;
+    cursor: pointer;
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #fff;
+
+    &:hover {
+      background-color: #fff;
+      border: 1px solid #4ec0b4;
+      color: #4ec0b4;
+    }
+
+    &:active {
+      background-color: #4ec0b4;
+      color: yellow;
+    }
+  }
+
+  &__type {
+    margin: 14px 0 0 0;
+    text-align: right;
+    font-size: 16px;
+
+    &--link {
+      color: #4ec0b4;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      margin-left: 5px;
+      cursor: pointer;
+      transition: all 400ms ease-in-out;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+}
