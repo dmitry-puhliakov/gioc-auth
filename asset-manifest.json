@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gioc-auth/static/css/main.c20f55cd.chunk.css",
+    "main.js": "/gioc-auth/static/js/main.e0dbd5bc.chunk.js",
+    "main.js.map": "/gioc-auth/static/js/main.e0dbd5bc.chunk.js.map",
+    "runtime-main.js": "/gioc-auth/static/js/runtime-main.3c2d8362.js",
+    "runtime-main.js.map": "/gioc-auth/static/js/runtime-main.3c2d8362.js.map",
+    "static/js/2.05626e3e.chunk.js": "/gioc-auth/static/js/2.05626e3e.chunk.js",
+    "static/js/2.05626e3e.chunk.js.map": "/gioc-auth/static/js/2.05626e3e.chunk.js.map",
+    "index.html": "/gioc-auth/index.html",
+    "static/css/main.c20f55cd.chunk.css.map": "/gioc-auth/static/css/main.c20f55cd.chunk.css.map",
+    "static/js/2.05626e3e.chunk.js.LICENSE.txt": "/gioc-auth/static/js/2.05626e3e.chunk.js.LICENSE.txt",
+    "static/media/Services.scss": "/gioc-auth/static/media/giots_srv_pen.31893edb.svg",
+    "static/media/Hero.scss": "/gioc-auth/static/media/main.2a89d788.jpg",
+    "static/media/CurrentService.scss": "/gioc-auth/static/media/service_bkg_01.33fc0b61.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c2d8362.js",
+    "static/js/2.05626e3e.chunk.js",
+    "static/css/main.c20f55cd.chunk.css",
+    "static/js/main.e0dbd5bc.chunk.js"
+  ]
+}
