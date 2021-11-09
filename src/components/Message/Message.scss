@@ -20,14 +20,20 @@
     margin: 5% auto;
     padding: 30px;
     width: 40%;
+    min-width: 256px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+
+    @media (max-width: 768px) {
+      width: 80%;
+    }
   }
 
   &__button {
     display: block;
     width: 20%;
+    min-width: 80px;
     margin: 0 auto;
     padding: 5px 0;
     border: 1px solid transparent;
